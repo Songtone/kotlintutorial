@@ -11,4 +11,10 @@ fun main(args : Array<String>){
     var smallInt: Int = Int.MIN_VALUE
 
     println("My name is: $name and I am $age years old. I like $bigInt and I hate $smallInt.")
+
+    println("My name is a string. ${name is String}")
+
+    if(name == "Seb"){
+        println("HELLO")
+    }
 }
